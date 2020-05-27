@@ -1,0 +1,51 @@
+button {
+    float: right;
+    margin-top: -30px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    border-style: none;
+    background-color: white;
+    transition: transform 0.1s;
+    filter: grayscale(50%);
+    color: black;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.para {
+    float: right;
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 550px;
+    border-style: none;
+    transition: transform 0.1s;
+    filter: grayscale(50%);
+    font-size: 15px;
+    background-color: #1dd1a1;
+    color: #FFFFFF;
+}
+
+.para:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: black;
+    background-color: #FFC312;
+}
